@@ -1,0 +1,28 @@
+.statistics {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 50px;
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 1), -23px 0 20px -23px rgba(0, 0, 0, 0.8),
+    23px 0 20px -23px rgba(0, 0, 0, 0.8), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.title {
+  padding: 25px;
+  text-transform: uppercase;
+}
+
+.list {
+  display: flex;
+}
+
+.item {
+  flex-basis: 25%;
+  display: grid;
+  height: 55px;
+  align-items: center;
+  padding: 10px;
+}
